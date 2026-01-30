@@ -19,7 +19,7 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -33,7 +33,7 @@ img {
 div{
     height: 125px;
     padding: 20px;
-    border: 3px solid white;
+    border-width: 3px solid white;
 }
 
 .introduction{
@@ -47,7 +47,7 @@ Text is aligned on the right side
 A left margin of 50px;
 A  border of 2px on the bottom and 5px on the left; */
 
-.red{
+.red {
     background-color: red;
     text-align: right;
     margin-left: 50px;
