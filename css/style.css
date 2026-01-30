@@ -28,12 +28,14 @@ img {
     width: 250px;
     /* All images are centered */
     border: 10px dashed white;
+    display: block;
+    margin: 0 auto;
 }
 
 div{
     height: 125px;
     padding: 20px;
-    border-width: 3px solid white;
+    border: 3px solid white;
 }
 
 .introduction{
