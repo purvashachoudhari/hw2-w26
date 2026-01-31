@@ -1,7 +1,7 @@
 body {
-    background-color: #000;
+    background-color: #000000;
     font-family: Arial, Verdana;
-    color: #fff;
+    color: #ffffff;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -27,20 +27,20 @@ p {
 img {
     width: 250px;
     /* All images are centered */
-    border: 10px dashed white;
+    border: 10px dashed #FFFFFF;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 div{
-    height: 125px;
-    padding: 20px;
-    border: 3px solid white;
+    min-height: 125px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #ffffff;
 }
 
 .introduction{
-    border-radius: 15px;
-    margin-top: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
     line-height: 2.0;
 }
 
@@ -50,11 +50,13 @@ A left margin of 50px;
 A  border of 2px on the bottom and 5px on the left; */
 
 .red {
-    background-color: red;
+    background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-left: 0px solid #FFFFFF;
+    border-top: 0px solid #FFFFFF;
 }
 
 /*Background color is hex value for blue
@@ -66,8 +68,10 @@ A  border of 5px on the right and 2px on the top; */
     background-color: blue;
     text-align:left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-bottom: 0px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-left: 0px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
 .blue p{
@@ -90,8 +94,10 @@ Use #707070 for the paragraph text
     background-color: yellow;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 0px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    border-top: 0px solid #FFFFFF;
 }
 
 .yellow p{
@@ -108,8 +114,10 @@ A  border of 5px on the right and 2px on the top;
     background-color: #00EB00;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-bottom: 0px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-left: 0px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
 footer {
@@ -120,7 +128,5 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 15px 15px 15px 0px;
 }
